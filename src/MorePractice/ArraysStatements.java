@@ -24,6 +24,10 @@ public class ArraysStatements {
         System.out.println(Arrays.toString(myArr).length());//length of the string produced from the array: includes brackets, commas, and spaces
 		System.out.println(myArr.length); // the true length of the array using length STATE
 		
+		System.out.println(myChars);//character arrays are printed as if its a string
+		System.out.println(myArr);//prints memory address
+		System.out.println(myPokemon);//prints memory address
+		
 		
 		
 		

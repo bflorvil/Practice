@@ -30,7 +30,7 @@ public class TypeCasting {
 		System.out.println(str);
 		char[] strChars = str.toCharArray(); //"Hello" is now a char array
 		// char[] myChars = (char[]) str; Cannot cast string to char array... must use toCharArray instance method
-		System.out.println(Arrays.toString(strChars)); //prints the array as a string
+		System.out.println(Arrays.toString(strChars)); //prints the array as a string; same as String.valueOf()
 	
 		char[] myChars = {'a','b','c'};
 		//String str2 = (String) myChars; The opposite is also impossible... must use String.valueof(char array)

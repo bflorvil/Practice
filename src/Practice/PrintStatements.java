@@ -24,6 +24,7 @@ public class PrintStatements {
 	    System.out.println(ps.toString()); // getClass().getName() @ hashcode of object
 	    System.out.println(ps); // equivalent to ps.toString()
 	    System.out.println(ps.getClass().getName());
+	    System.out.println('A'<'B');
 	    
 	    
 	   
