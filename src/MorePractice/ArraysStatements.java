@@ -9,6 +9,10 @@ public class ArraysStatements {
 		String[] myPokemon = {"Charizard", "Arcanine", "Lapras", "Ninetales", "Rapidash", "Articuno"};
 		char[] myChars = {'a','b','?'};
 		myArr[4] = 100;
+		myArr[0] = 0;
+		myArr[1] = 1;
+		myArr[2] = 2;
+		myArr[3] = 3;
 		System.out.println(myArr[3]);
 		for(int i = 0; i < myPokemon.length; i++)
 			System.out.println(myPokemon[i]);
@@ -24,10 +28,11 @@ public class ArraysStatements {
         System.out.println(Arrays.toString(myArr).length());//length of the string produced from the array: includes brackets, commas, and spaces
 		System.out.println(myArr.length); // the true length of the array using length STATE
 		
-		System.out.println(myChars);//character arrays are printed as if its a string
+		System.out.println(myChars);//character arrays are printed as if its a string (i guess cause strings are basically character arrays)
 		System.out.println(myArr);//prints memory address
-		System.out.println(myPokemon);//prints memory address
-		
+		System.out.println(myPokemon);//prints memory address (any other kind of array prints the memory address)
+		System.out.println(Arrays.binarySearch(myPokemon, "Lapras"));
+		System.out.println(Arrays.binarySearch(myArr, 9));
 		
 		
 		

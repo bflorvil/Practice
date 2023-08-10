@@ -20,8 +20,8 @@ public class TypeCasting {
 	    long sum6 = b + s; // no need for casting.. long holds more bits than the assumed int
 	    float sum7 = b + s;// no need for casting.. assumed type int is smaller than a float
 	    long sum8 = (long) d + i; // type double is too big to fit into long. only need to cast the double, the int is fine
-	   
-	    
+	    double sum9 = i + i;
+	    System.out.println(sum9);
 	    // when operating on 2 whole number types, result is assumed of type int
 	    // if either operand is a decimal (float or double), result is assumed to be of type double
 	    
@@ -38,6 +38,8 @@ public class TypeCasting {
 		System.out.println(str);
 		
 	    ///String.valueOf() OR Arrays.toString() to convert character array to a string
+		
+		
 
 	   
 		
